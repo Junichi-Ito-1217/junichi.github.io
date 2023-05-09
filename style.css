@@ -1,0 +1,169 @@
+@charset "UTF-8";
+body {
+  font-family: Arial, "Helvetica Neue", "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif;
+}
+
+header {
+  background-color: #efa358;
+  height: 80px;
+  max-width: 1366px;
+  width: 100%;
+  padding-left: 183px;
+  padding-right: 183px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  width: 83px;
+  height: 32px;
+  color: #fff;
+  margin-left: 203px;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 203px;
+}
+
+.nav-list-item a {
+  color: #fff;
+}
+
+.nav-list-item + .nav-list-item {
+  margin-left: 20px;
+}
+
+.fv {
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fv img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.feature {
+  max-width: 1000px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feature-inner {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.feature-title {
+  color: #555555;
+  width: 116px;
+  height: 37px;
+  margin: 0 auto;
+}
+
+.feature-contents {
+  display: flex;
+  margin-top: 42px;
+}
+
+.feature-contents-image {
+  width: 480px;
+  margin-right: 60px;
+}
+
+.feature-contents-image img {
+  width: 100%;
+}
+
+.feature-title {
+  white-space: nowrap;
+  text-align: center;
+  width: 116px;
+  height: 37px;
+  font-size: 32px;
+  line-height: 37px;
+}
+
+.feature-contents-title {
+  font-size: 32px;
+  color: #555555;
+  font-weight: 700;
+  line-height: 37px;
+}
+
+.feature-contents-sentence {
+  margin-top: 30px;
+  color: #555555;
+  width: 390px;
+  height: 96px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.feature-contents-word {
+  width: 374px;
+  height: 48px;
+  margin-top: 30px;
+  color: #555555;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.feature-btn {
+  padding: 14px 57px;
+  border: 1px solid #efa358;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  background-color: #efa358;
+  color: #fff;
+}
+
+.feature-btn:hover {
+  transform: translate3d(0, 5px, 0);
+  color: #fff;
+  box-shadow: none;
+  background: #efa358;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #efa358;
+  color: #fff;
+  max-width: 1366px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-logo {
+  max-width: 100%;
+  width: 71px;
+  height: 28px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+footer p {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  width: 180px;
+  font-size: 12px;
+}
